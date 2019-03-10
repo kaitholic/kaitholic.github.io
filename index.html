@@ -1,0 +1,62 @@
+<html>
+<body>
+    <style>
+    body {
+        background-color: #800;
+    }
+    .title {
+        text-align: center;
+        font-family: "comic sans ms";
+        font-size: 48;
+        padding: 10px;
+        animation:blinkingText 1.8s infinite;
+    }
+    .subtitle {
+        color: FFF;
+        text-align: center;
+        font-family: "comic sans ms";
+        font-size: 26;
+        padding: 5px;
+    }
+@keyframes blinkingText{
+    0%{     color: #0FF;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    100%{   color: #0FF;    }
+}
+    </style>
+    <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '95100348886',
+              xfbml      : true,
+              version    : 'v2.6'
+            });
+          };
+
+          (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        </script>
+    <div class="title"><img style="width: 100px;" src="rotatingcross.gif"/>Furrs fur Christ<img style="width: 100px;" src="rotatingcross.gif"/></div>
+    <div class="subtitle">Online dating service for furries that helps you keep your traditional christian values.<br></div>
+    <br><br>
+    <div style="text-align: center;">
+        <div class="fb-page"
+             data-href="https://www.facebook.com/625331354580888/"
+             data-tabs="messages"
+             data-width="800"
+             data-height="800"
+             data-small-header="true">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote></blockquote>
+          </div>
+        </div>
+    </div>
+</body>
+
+</html>

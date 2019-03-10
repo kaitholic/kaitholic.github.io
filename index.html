@@ -8,12 +8,14 @@
         padding: 200px;
     }
     .center {
-        padding: 20%;
+    zoom: 2;
+    -moz-transform: scale(2);
+    -moz-transform-origin: 0 0;
     }
     .title {
         text-align: center;
         font-family: "comic sans ms";
-        font-size: 48;
+        font-size: 24;
         padding: 10px;
         animation:blinkingText 1.8s infinite;
     }
@@ -21,7 +23,7 @@
         color: FFF;
         text-align: center;
         font-family: "comic sans ms";
-        font-size: 26;
+        font-size: 13;
         padding: 5px;
     }
     .fb-customerchat {
@@ -29,6 +31,7 @@
     }
     ._7acu {
         font-family: "comic sans ms" !important;
+        bottom: 0; /* this is causing issues */
     }
 @keyframes blinkingText{
     0%{     color: #0FF;    }
